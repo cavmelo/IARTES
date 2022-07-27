@@ -1,11 +1,21 @@
-### O seu ambiente de trabalho
+# O seu ambiente de trabalho
+Abaixo você encontrará dicas de como preparar um ambiente para realizar 
+as tarefas de programação deste módulo.
 
 ## Crie o ambiente de programação
 
 1. Atom
-Editor de texto que facilita a criação do scripts. Possui extensões que podem ser habilidades para incrementar o suporte ao desenvolvimento de programas. No [link]
+Editor de texto que facilita a criação do scripts. Possui 
+extensões que podem ser habilidades para incrementar o 
+suporte ao desenvolvimento de programas. Acesso feito [aqui](https://atom.io)
 
-2. Python
+2. IDE PyCharm.
+Ambiente integrado de programação dedicado ao projetos escrito em python. Possui um ambiente
+bem mais completo com apoio a validação do código, controle de versão (git, github e subversion),
+console python e autocomplete. O PyCharm vem em diferentes versões, a sugestão
+é usar a community edition que está disponível [aqui](https://www.jetbrains.com/pycharm/download)
+
+4. Python
 
 Instalação do python deve ocorre para a versão mais atualizada, python3. Abaixo você encontrará link para tutoriais de instalação:
 
