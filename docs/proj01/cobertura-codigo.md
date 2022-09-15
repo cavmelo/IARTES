@@ -13,8 +13,8 @@ Caso deseje mais informações busque por:
 __________
 
 ## Uma base de código
-No repositório do curso tem a saída gerada por uma execução do pytest numa base de código. Utilize o arquivo sat.xyz 
-como a entrada de dados para o seu script. 
+No repositório do curso tem a saída gerada por uma execução do pytest numa base de código. Utilize o arquivo 
+codecoverage.repo como a entrada de dados para o seu script. 
 __________
 
 ## Passo a passo
