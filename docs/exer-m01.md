@@ -2,7 +2,7 @@
 
 1. Escreva um script python que define duas variáveis do tipo inteiro (__int__)
 e atribui um valor positivo para elas. Imprima as duas variáveis.
-2. Seja x = 2 + 4j, qual é tipo associado a essa variável pelo interpretador.
+2. Seja x = 2 + 4j, descubra qual é tipo associado a essa variável pelo interpretador.
 3. Experimente a inicialização de variáveis como segue:
    1. urnas = {}
    2. sessao = {"escola municipal", 103}
@@ -55,3 +55,7 @@ sejam individualizados, como no código abaixo:
       print(numero*3)
    
       se o valor 3(três) for informado como entrada e armazenado na variável número.
+
+11. Revise o código disponibilizado em src/primeiro.py. Em seguida altere o programa
+para que ele se torne generalista, i.e., aceite qualquer quantidade de notas que cada
+aluno pode ter. 

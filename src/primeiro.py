@@ -8,15 +8,15 @@
 
 def validar_notas(notas, pesos):
     executa = True
-    msg_erro:str = ""
+    msg_erro: str = "\n"
     i = 0
-    while executa and i < 3:
+    while executa == True and i < len(notas):
         if notas[i] < 0 or notas[i] > 10:
             executa = False
-            msg_erro = "Nota %d tem valor inválido" % i
-        elif pesos[i] <= 0:
+            msg_erro = "Nota %d tem valor inválido" % (i+1)
+        if pesos[i] <= 0:
             executa = False
-            msg_erro = "Peso %d tem valor inválido!" % i
+            msg_erro = msg_erro + "Peso %d tem valor inválido!" % (i+1)
 
         i = i + 1
     return executa, msg_erro
@@ -25,7 +25,7 @@ def validar_notas(notas, pesos):
 def calcular_media(notas, pesos):
     temp_nota = 0.0
     temp_peso = 0
-    for i in range(0, 3):
+    for i in range(0, len(notas)):
         temp_nota = temp_nota + (notas[i] * pesos[i])
         temp_peso = temp_peso + pesos[i]
 
@@ -34,39 +34,43 @@ def calcular_media(notas, pesos):
     return media_final
 
 
-def ler_notas():
-    nota1 = float(input())
-    nota2 = float(input())
-    nota3 = float(input())
+def ler_notas(nro_notas):
+    notas = []
+    for i in range(0, nro_notas):
+        nota = float(input())
+        notas.append(nota)
 
-    return [nota1, nota2, nota3]
-
-
-def ler_pesos():
-    peso1 = int(input())
-    peso2 = int(input())
-    peso3 = int(input())
-
-    return [peso1, peso2, peso3]
+    return notas
 
 
-nro_alunos = int(input())
-# nro_notas = int(input())
-# nro_pesos = nro_notas
+def ler_pesos(nro_pesos):
+    pesos = []
+    for i in range(0, nro_pesos):
+        peso = int(input())
+        pesos.append(peso)
 
-pesos = ler_pesos()
-# while nro_alunos > 0 :
-for i in range(0, nro_alunos):
-    notas = ler_notas()
-    executa, msg_erro = validar_notas(notas, pesos)
-    if executa:
-        media = calcular_media(notas, pesos)
-        print("%.2f" % media)
-    else:
-        print("Entrada de dados inválida!")
-        print(msg_erro)
+    return pesos
 
-#    nro_alunos = nro_alunos - 1
 
-# if __name__ == "__main__":
-# #    inicio()
+def main():
+    nro_alunos = int(input())
+    nro_notas = int(input())
+    nro_pesos = nro_notas
+
+    pesos = ler_pesos(nro_pesos)
+    # while nro_alunos > 0 :
+    for i in range(0, nro_alunos):
+        notas = ler_notas(nro_notas)
+        executa, msg_erro = validar_notas(notas, pesos)
+        if executa:
+            media = calcular_media(notas, pesos)
+            print("%.2f" % media)
+        else:
+            print("Entrada de dados inválida!")
+            print(msg_erro)
+
+    #    nro_alunos = nro_alunos - 1
+
+
+if __name__ == "__main__":
+    main()
