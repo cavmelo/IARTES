@@ -35,7 +35,7 @@ Melhor abordagem neste estágio é usar o tipo de dado string (__str__). A strin
 ```Python
 data = input()
 
-dia = int(data[:1])
-mes = int(data[3:4])
+dia = int(data[:2])
+mes = int(data[3:5])
 ano = int(data[6:])
 ```

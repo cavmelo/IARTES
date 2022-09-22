@@ -13,13 +13,28 @@ Caso deseje mais informações busque por:
 __________
 
 ## Uma base de código
-No repositório do curso tem a saída gerada por uma execução do pytest numa base de código. Utilize o arquivo 
-codecoverage.repo como a entrada de dados para o seu script. 
+No repositório do curso tem o código usado para ler e validar 
+datas e telefones.  
 __________
 
-## Passo a passo
-1. Analise o arquivo para identificar padrões
-2. Escreva o script mais básico para processar uma linha que tem a informação desejada (nome do módulo e cobertura)
-3. Generalize a ideia do passo anterior garantindo que as informações de todos os módulos sejam processadas
-4. Observe que a dinâmica de leitura das informações no arquivo é seguida por um processamento dessas informações;
+## Usando o PyTest
+1. Instale o pytest
+   ```shell
+    pip install pytest
+   ```
+2. Instale o coverage
+    ```shell
+    pip install coverage 
+    ```
+3. Crie uma classe para testar telefone 
+    ```shell
+    chame a sua classe de TestTelefone()
+    ```
+4. Crie uma classe para testar data
+    ```shell
+    chame a sua classe de TestData()
+    ```
+6. Escreva o script mais básico para processar uma linha que tem a informação desejada (nome do módulo e cobertura)
+7. Generalize a ideia do passo anterior garantindo que as informações de todos os módulos sejam processadas
+8. Observe que a dinâmica de leitura das informações no arquivo é seguida por um processamento dessas informações;
 
