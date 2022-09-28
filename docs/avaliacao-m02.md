@@ -5,7 +5,7 @@ a técnica de Desenvolvimento Dirigido por Teste (TDD), e implementados em Pytho
 incremental. Para isso considere os passos a seguir.
 
 ## Os Validadores
-O endereço de correio eletrônico (__email__) e cadastro de pessoa física (__CPF__) são informações bastante utilizadas
+O endereço de correio eletrônico (__email__) e cadastro de pessoa física (__CPF__) são bastante utilizados
 para coletar informações sobre pessoas. Essas duas informações apresentam padrões que por definição
 precisam ser respeitados, durante a coleta da informação. 
 

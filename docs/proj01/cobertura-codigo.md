@@ -34,7 +34,3 @@ __________
     ```shell
     chame a sua classe de TestData()
     ```
-6. Escreva o script mais básico para processar uma linha que tem a informação desejada (nome do módulo e cobertura)
-7. Generalize a ideia do passo anterior garantindo que as informações de todos os módulos sejam processadas
-8. Observe que a dinâmica de leitura das informações no arquivo é seguida por um processamento dessas informações;
-
