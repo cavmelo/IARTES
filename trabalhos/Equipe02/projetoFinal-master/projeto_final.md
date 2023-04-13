@@ -16,6 +16,9 @@ uma lista de requisitos para cada classe da hierarquia. Essa lista precisa ser
 suficientemente fechada para que a equipe de teste consiga desenvolver o conjunto 
 de testes, e esse oriente a implementação.
 
+No relatório, apresente código que mostre Como e Onde se utiliza o conceito de:
+
+
 ## Estrutura do Relatório
 
 1. Introdução.
@@ -31,12 +34,11 @@ descrever a abstração representada. Nessa parte indique, quando for o caso, em
 2. __polimorfismo__;
 3. __encapsulamento__.
 
-
 4. Relatório de cobertura do código.
 
 Mostre a cobertura de código alcançada em cada estágio do desenvolvimento do código. Para isso
-considere a execução do código quando 50%, 80% e 100% do código tenha sido desenvolvido.
+considere a execução do código quando 50%, 80%, 100% do código tenha sido desenvolvido.
 
 5. Conclusões.
 
-Apresente de forma resumida o que foi desenvolvido e os principais desafios.
+Apresente de forma resumida foi desenvolvido e os principais desafios.
