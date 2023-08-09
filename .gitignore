@@ -1,6 +1,6 @@
 /docs/priv-docs/
 /projs/M02/.pytest_cache/
 /projs/M02/.coverage
-/reports/2022
-/reports/2022/*.zip
+/reports/2022/
 /trabalhos/2022
+.gitignore
