@@ -1,9 +1,9 @@
-# print("Salve o mundo")
+# print("Salve o planeta")
 # valor: int = 10
 # print(valor)
 # print(type(valor))
 
-# valor = "Salve o mundo"
+# valor = "Salve o planeta"
 
 # print(valor)
 
