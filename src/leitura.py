@@ -1,5 +1,5 @@
 def main():
-    pasta = "/Users/cesar/data/professional/consulting/IARTES/repo/projs/M01/"
+    pasta = "./IARTES/projs/M01/"
     arq_nome = "codecoverage.repo"
     f = open(pasta + arq_nome, 'r')
 
