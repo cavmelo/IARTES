@@ -4,10 +4,10 @@ as tarefas de programação deste módulo.
 
 ## Crie o ambiente de programação
 
-1. Atom
+1. Visual Code
 Editor de texto que facilita a criação do scripts. Possui 
 extensões que podem ser habilidades para incrementar o 
-suporte ao desenvolvimento de programas. Acesso feito [aqui](https://atom.io)
+suporte ao desenvolvimento de programas. Acesso feito [aqui](https://code.visualstudio.com/download)
 
 2. IDE PyCharm.
 Ambiente integrado de programação dedicado aos projetos escrito em python. Possui um ambiente
@@ -32,7 +32,7 @@ Com o python instalado, o seu computador também deve ter instalado o gerenciado
 $ pip3 install --upgrade pip
 Collecting pip
 [...]
-Successfully installed pip-22.1
+Successfully installed pip-XX.Z
 ```
 
 # Instalando o ambiente virtual (*virtualenv*)
@@ -52,15 +52,23 @@ Successfully installed virtualenv
 Crie um ambiente Python virtual isolado executando o seguinte comando:
 
 ```bash
-$ cd $T_PATH
+$ cd path/para/venv
 $ virtualenv env
 created virtual environment CPython3.7.4.final.0-64 in 2167ms
 ```
+
+Para aqueles que possuem uma instalação completa do Python.
+
+```bash
+python3 -m venv path/para/venv
+```
+
+
 Ative o seu ambiente executando o seguinte comando:
 
 ```bash
-$ cd $T_PATH
-$ source env/bin/activate
+$ cd path/para/venv
+$ source bin/activate
 ```
 O ambiente está pronto para a instalação de novos pacotes sem quaisquer efeitos colaterais ou gerar conflitos com outros 
 projetos.
